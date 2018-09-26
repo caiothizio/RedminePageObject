@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="br.edu.utfpr.redminepageobject.RedmineTest" time="69.308" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="br.edu.utfpr.redminepageobject.RedmineTest" time="16.993" errors="0" skipped="5">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
@@ -62,10 +62,20 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="br.edu.utfpr.redminepageobject.RedmineTest" name="logar" time="8.915"/>
-  <testcase classname="br.edu.utfpr.redminepageobject.RedmineTest" name="logarContaInexistente" time="8.126"/>
-  <testcase classname="br.edu.utfpr.redminepageobject.RedmineTest" name="buscarAlgo" time="7.417"/>
-  <testcase classname="br.edu.utfpr.redminepageobject.RedmineTest" name="cadastrarConta" time="13.606"/>
-  <testcase classname="br.edu.utfpr.redminepageobject.RedmineTest" name="criarProjeto" time="13.67"/>
-  <testcase classname="br.edu.utfpr.redminepageobject.RedmineTest" name="adicionarTarefa" time="16.028"/>
+  <testcase classname="br.edu.utfpr.redminepageobject.RedmineTest" name="logar" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="br.edu.utfpr.redminepageobject.RedmineTest" name="logarContaInexistente" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="br.edu.utfpr.redminepageobject.RedmineTest" name="buscarAlgo" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="br.edu.utfpr.redminepageobject.RedmineTest" name="cadastrarConta" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="br.edu.utfpr.redminepageobject.RedmineTest" name="criarProjeto" time="15.313"/>
+  <testcase classname="br.edu.utfpr.redminepageobject.RedmineTest" name="adicionarTarefa" time="15.313">
+    <skipped/>
+  </testcase>
 </testsuite>

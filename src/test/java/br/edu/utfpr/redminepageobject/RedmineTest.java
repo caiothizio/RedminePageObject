@@ -1,11 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package br.edu.utfpr.redminepageobject;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import org.junit.After;
 import static org.junit.Assert.assertEquals;
@@ -18,10 +14,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-/**
- *
- * @author caiot
- */
 public class RedmineTest {
 
     private WebDriver driver;
@@ -62,7 +54,7 @@ public class RedmineTest {
         assertEquals(paginaInicial.irParaMenu().estaLogadoComo(), login);
     }
 
-    @Test
+    @Test 
     public void logarContaInexistente() {
         String login = "vaidarerro";   //login errado
         String senha = "vaidarerro";  //senha errada
@@ -98,9 +90,12 @@ public class RedmineTest {
     @Test
     public void criarProjeto() {
         logar();
-
-        String nome = "testeUTF123456";
-        String desc = "this is a automated test";
+        
+        Random random = new Random();
+        int numeroRandom = random.nextInt(10000);
+        
+        String nome = "teste" + numeroRandom;
+        String desc = "this is an automated test";
 
         ConfiguracoesPage configPage = new PaginaInicialPage(driver).irParaMenu().irParaProjetos().criarNovoProjeto().preencherCamposCom(nome, desc);
 
