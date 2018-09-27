@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: br.edu.utfpr.redminepageobject.RedmineTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 69.301 sec
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 16.981 sec
